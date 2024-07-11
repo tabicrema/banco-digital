@@ -1,0 +1,285 @@
+    /* Reset CSS básico */
+    * {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #EEE7FD;
+    }
+    
+    button {
+        background-color: #2980b9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #3498db;
+    }
+
+    /*Header */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        background-color: #ffffff;
+        color: white;
+        width: 100%;
+        position: fixed;
+    }
+
+    header img {
+        width: 130px; 
+        height: 50px;
+    }
+
+    nav a {
+        background-color: #2980b9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: #3498db;
+    }
+
+    /*Section hero */
+    .hero {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+        background-color: #580EEB;
+    }
+
+    .hero-content {
+        text-align: left;
+        color: #ffffff;
+        line-height: 1;
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 100px;
+    }
+
+    .hero-content a {
+        background-color: #2980b9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .hero-content a:hover {
+        background-color: #3498db;
+    }
+
+    .hero img { 
+        width: 600px; 
+        height: auto;
+    }
+
+    /*Section conheca-conta */
+    .conheca-conta { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .conheca-conta img { 
+        width: 650px; 
+        height: auto;
+    }
+
+    .text-conheca-conta { 
+        text-align: left;
+        color: #000000;
+    }
+
+    .text-conheca-conta h2 { 
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .text-conheca-conta p { 
+        margin-bottom: 24px;
+        font-size: 20px;
+    }
+
+    .text-conheca-conta p:last-of-type {
+        margin-bottom: 72px;
+    }
+
+    .text-conheca-conta a {  
+        background-color: #2980b9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .text-conheca-conta a:hover {
+        background-color: #3498db;
+    }
+    
+    /*Section necessidades-negocios */
+    .necessidades {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #ffffff;
+    }
+    
+    .necessidades img {
+        width: 650px; 
+        height: auto;
+    }
+    
+    .negocio-conta {
+        text-align: left;
+        color: #000000;
+    }
+
+    .negocio-conta h2 {
+        margin-bottom: 24px;
+        font-size: 40px;
+    }
+
+    .negocio-conta p {
+        margin-bottom: 24px;
+        font-size: 20px;
+    }
+
+    .negocio-conta p:last-of-type {
+        margin-bottom: 72px;
+    }
+
+    .negocio-conta a {
+        background-color: #2980b9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .negocio-conta a:hover {
+        background-color: #3498db;
+    }
+
+    /*Section video-banco */
+    .propaganda {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .propaganda h2 {
+        margin-bottom: 20px;
+    }
+
+    /*Section formulario */
+    .cadastro {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #580EEB;
+        color: #ffffff;
+        height: 100vh;
+    }
+
+    .cadastro h2 {
+        text-align: center;
+    }
+
+    .cadastro form {
+        flex-direction: column;
+        max-width: 600px;
+    }
+    
+    .cadastro label {
+        margin-bottom: 16px;
+    }
+    
+    .cadastro input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    /*Campo description da página fale-conosco*/
+    #description {
+        height: 100px;
+    }
+
+    /*Section investimento */
+    .investimento {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 10vh;
+        background-color: #ffffff;
+        font-size: 12px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    /*Footer*/
+    .rodape {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #ffffff;
+        height: 80vh;
+    }
+    
+    .rodape img {
+        width: 200px; 
+        height: 75px;
+        margin-top: 55px;
+        align-self: flex-start;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        font-size: 12px;
+    }
